@@ -12,35 +12,45 @@
 <body>
     
 
-    
-    <div class="d-flex convertform flex-column m-5 p-5">
-        <div class="d-flex justify-content-center mb-3">
+    <div class="convert-container d-flex flex-column justify-content-center align-items-center">
+        <div>
             <h1>Simple Money Conversion</h1>
         </div>
-       <form action="#" method="">
-        <div class="d-flex justify-content-center m-3">
+        <form action="#" method=""></form>
+        <div class="convertform d-flex flex-column justify-content-center align-items-center">
+       
+        <div class="d-flex flex-column topdisplay align-items-center">
         <label for="input"> Philippine Peso </label>
-        <input type="number" id="input">
+        <input type="number" placeholder="Enter Value" id="input">
+        
+        <div class="d-flex convert-answer justify-content-center mt-3 p-2">
+        <h3 id="display">0</h3>
+        <h3 id="displayUnit"></h3>
+        </div>
         </div>
 
         
         <div class="d-flex justify-content-center m-3">
        
-        <button class = "m-2 p-2 " onclick="converttousd ()">
+        <button class="m-2 p-3" onclick="converttousd ()">
         <i class="fa-solid fa-dollar-sign"></i>  USD
         </button>
         
-        <button class = "m-2" onclick="converttoyen ()">
+        <button class="m-2" onclick="converttoyen ()">
             <i class="fa-solid fa-yen-sign"></i>
             Japanese Yen
         </button>
         
-        <button class = "m-2" onclick="converttowon ()">
+        <button class="m-2" onclick="converttowon ()">
             <i class="fa-solid fa-won-sign"></i>
             Korean Won
         </button>
+       
         </div>
+    </div>
+        
     </form>
+
 
 
 
