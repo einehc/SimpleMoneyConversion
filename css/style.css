@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+
+.convertform{
+    background-color: rgba(16, 22, 43,.18);
+    height: 250px;
+    width: 700px;
+    border-radius: 30px;
+ }
+
+.convertform button{
+   background-color: rgb(31, 37, 37);
+   color: white;
+   border-radius: 20px;
+   border: none;
+   
+}
+
+.convertform button i{
+ 
+    color:pink;
+    border-radius: 20px;
+    border: none;
+    
+ }
+
+.convertform input{
+    border-radius: 20px;
+ }
